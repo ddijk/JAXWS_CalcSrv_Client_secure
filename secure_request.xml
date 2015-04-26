@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Header>
+        <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" S:mustUnderstand="1">
+            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="unt_UxNLlyyB6ILqgL98">
+                <wsse:Username>ServiceTest1</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">ServiceTest1</wsse:Password>
+                <wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">6PexE0+qKbR69XonKrq5/eDd4xxIu/uujiJzsJV4R6g=</wsse:Nonce>
+                <wsu:Created>2015-04-26T08:02:32Z</wsu:Created>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </env:Header>
+    <S:Body>
+        <ns0:add xmlns:ns0="http://jaxws_calcservice.opal.ortecfinance.nl/">
+            <arg0>1</arg0>
+            <arg1>3</arg1>
+        </ns0:add>
+    </S:Body>
+</S:Envelope>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Body>
+        <ns0:addResponse xmlns:ns0="http://jaxws_calcservice.opal.ortecfinance.nl/">
+            <return>4</return>
+        </ns0:addResponse>
+    </S:Body>
+</S:Envelope>
+
